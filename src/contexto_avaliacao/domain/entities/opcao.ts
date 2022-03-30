@@ -1,4 +1,4 @@
-import { Entidade } from "../utils/entidade"
+import { Entidade } from "../../../utils/entidade"
 
 export class Opcao extends Entidade{
     //private readonly _id: string (vai herdar do arquivo entidade)

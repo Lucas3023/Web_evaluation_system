@@ -1,4 +1,4 @@
-import { Opcao } from "../../../../src/contexto_avaliacao/opcao";
+import { Opcao } from "../../../../src/contexto_avaliacao/domain/entities/opcao";
 
 describe('Entidade Opcao', () => {
     

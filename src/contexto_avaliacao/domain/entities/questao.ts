@@ -1,6 +1,6 @@
 import { Entidade } from '../../../utils/entidade'
 
-export class Questao extends Entidade{
+export abstract class Questao extends Entidade{
     //private readonly _id: string (vai herdar do arquivo entidade)
     private readonly _enunciado: string
     private readonly _valor: number 

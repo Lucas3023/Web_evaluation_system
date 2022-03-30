@@ -1,5 +1,5 @@
 import { Prova } from "../../../../src/contexto_avaliacao/domain/entities/prova";
-import { Questao } from "../../../../src/contexto_avaliacao/domain/entities/questao";
+import { QuestaoDiscursiva } from "../../../../src/contexto_avaliacao/domain/entities/questao-discursiva";
 
 describe('Entidade Prova', () => {
     
@@ -42,7 +42,7 @@ describe('Entidade Prova', () => {
     test('deve iniciar uma prova com sucesso',() => {
         //GIVEN
         const prova = new Prova('Arquitetura e modelagem de Software',10)
-        const nova_questao = new Questao('O que é DDD',3)
+        const nova_questao = new QuestaoDiscursiva('O que é DDD',3)
         prova.addQuestao(nova_questao)
         //WHEN
         const iniciar = () => prova.iniciar()

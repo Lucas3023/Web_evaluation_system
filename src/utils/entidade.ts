@@ -1,6 +1,6 @@
 import { v4 } from 'uuid'
 
-export class Entidade {
+export abstract class Entidade {
     private readonly _id: string
 
     constructor(){
