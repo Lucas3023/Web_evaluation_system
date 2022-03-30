@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for prova.ts</title>
+    <title>Code coverage report for questao.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> prova.ts</h1>
+        <h1><a href="index.html">All files</a> questao.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -97,20 +97,20 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">import { v4 } from 'uuid'
 &nbsp;
-export class Prova {
+export class Questao {
     private readonly _id: string
-    private readonly _disciplina: string
-    private readonly _tempo: number // deveria ser integer
+    private readonly _enunciado: string
+    private readonly _valor: number // deveria ser integer
 &nbsp;
-    constructor(disciplina: string, tempo: number){
+    constructor(enunciado: string, valor: number){
         this._id = v4()
-        this._disciplina = disciplina
-        this._tempo = tempo
+        this._enunciado = enunciado
+        this._valor = valor
     }
 &nbsp;
     public getId = () =&gt; this._id
-    public getDisciplina = () =&gt; this._disciplina
-    public getTempo = () =&gt; this._tempo
+    public getEnunciado = () =&gt; this._enunciado
+    public getValor = () =&gt; this._valor
 }</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
